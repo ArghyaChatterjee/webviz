@@ -33,6 +33,7 @@ addDecorator(withScreenshot);
 addParameters({
   screenshot: {
     delay: 100,
+    hover: ".hoverForScreenshot", // Storycap captures after hovering the element matched by this selector
     waitFor: waitForFonts,
     viewport: SCREENSHOT_VIEWPORT,
   },
